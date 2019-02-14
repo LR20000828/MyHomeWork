@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center"
+            android:id="@+id/sdv_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            app:actualImageScaleType="centerCrop"
+            app:roundAsCircle="true"
+            app:roundingBorderWidth="2dp"
+            android:layout_centerInParent="true"
+            app:failureImage="@drawable/jiazaishibai"/>
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_gravity="center"
+            android:id="@+id/sdv_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            app:roundAsCircle="false"
+            app:roundedCornerRadius="20dp"
+            app:roundTopLeft="true"
+            app:roundBottomRight="true"
+            app:roundBottomLeft="true"
+            app:failureImage="@drawable/jiazaishibai"
+            app:roundTopRight="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/sdv_4"
+            android:layout_gravity="center"/>
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/sdv_7"
+            app:placeholderImage="@drawable/ic_launcher_background"
+            android:layout_gravity="center"/>
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/sdv_5"
+            android:layout_gravity="center"/>
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/sdv_6"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>
